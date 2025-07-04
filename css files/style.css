@@ -1,0 +1,123 @@
+body{
+  font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+section{
+    background-image:url(../images/imgi_7_banner.png);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-fluid{
+    width: 4rem;
+    height: 2.375rem;
+}
+.myp{
+    padding: 3.125rem 0rem;
+}
+.collapse .navbar-nav .nav-item a{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.collapse .navbar-nav .nav-item a:hover{
+     border: 2px solid #009AD8;
+     color:#009AD8;
+
+}
+.collapse .navbar-nav .nav-item a.active{
+      border: 2px solid #009AD8;
+}
+a{
+    text-decoration: inherit;
+    color: white
+}
+.myc{
+    background-color: #1E202B;
+}
+.find-location .mysearch {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    margin: auto;
+}
+.mycol{
+  background-color:   #009AD8;
+}
+
+.mybtn{
+     width: 12%;
+    top: .3125rem;
+    right: 2%;
+    bottom: .3125rem;
+    background-color: #009AD8;
+    color: white;
+    padding: 0rem 2.5rem;
+}
+.content{
+    width: 90%;
+    margin: auto;
+}
+.col1{
+    background-color: #323544;
+}
+.col2{
+    background-color: #262936;
+}
+.col3{
+    background-color: #2D303D;
+}
+.col4{
+    background-color:#1D1F29 ;
+}
+
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+   border-radius: 50%; 
+}
+.icon:hover{
+    
+background-color: #009AD8;
+}
+.icon:hover i{
+    
+    color: white;
+}
+.col5{
+    color: #009AD8;
+}
+form input, form textarea, form select {
+    outline:gray;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #1E202B;
+}
+
+.contact-content form input:hover{
+    border: #009AD8 solid .125rem;
+}
+.contact-content form input:focus{
+    border: #009AD8 solid .125rem;
+   
+  outline: none;
+  
+ 
+}
+textarea:focus{
+   border: #009AD8 solid .125rem;
+   
+  outline: none;   
+}
+.myf{
+    font-weight: 700;
+}
